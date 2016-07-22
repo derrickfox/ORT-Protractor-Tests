@@ -1,0 +1,24 @@
+{
+  "shell": {
+    "Listen": {
+      "Port": 8601,
+      "Url": "http://localhost"
+    },
+    "Auth": {
+      "Providers": [
+        "nih/wsfed"
+      ]
+    },
+    "LoadServices": true,
+    "AppPath": ""
+  },
+
+  "facility": {
+    "SSFacility": {
+      "Site": "http://ort-dev01.nih.gov",
+      "User": "nih\\foxdm2",
+      "Password": "Putten34!"
+    },
+    "FacilityDB": "SSFacility"
+  }
+}
